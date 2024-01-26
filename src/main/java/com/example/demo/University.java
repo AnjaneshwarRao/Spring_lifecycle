@@ -17,7 +17,7 @@ import lombok.Setter;
 @Data
 @Setter
 @Getter
-@Scope("prototype")
+@Scope("singleton")
 @AllArgsConstructor
 public class University implements  DisposableBean,InitializingBean {
 

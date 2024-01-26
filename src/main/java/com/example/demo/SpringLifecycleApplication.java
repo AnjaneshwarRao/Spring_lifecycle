@@ -26,5 +26,7 @@ public class SpringLifecycleApplication {
         Employee emp = context.getBean(Employee.class);
         System.out.println(emp.name);
         System.out.println(emp.id);
+        
+       context.close();
     }
 }
